@@ -1,0 +1,69 @@
+@import url("https://use.typekit.net/ded1uti.css");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grotesk{
+    font-family:
+    'space-grotesk-variable',
+    sans-serif;
+}
+
+
+
+h1 {
+    font-family: "space-grotesk-variable", sans-serif;
+    
+  }
+  
+  h2 {
+    font-family: "space-grotesk-variable", sans-serif;   
+  }
+
+  li{
+    font-family: "vista-sans", sans-serif;
+  }
+
+  p {
+    font-family: "noto-sans-oriya", sans-serif;
+}
+
+
+
+
+.amazing-rays {
+    mix-blend-mode: luminosity;
+    background-size: 1589px 383px;
+    background-repeat: no-repeat;
+    opacity: .3;
+    filter: hue-rotate(540deg) saturate(7.3);
+    animation: rotate-hue 15s ease-out infinite;
+    
+    
+}
+
+
+  @keyframes rotate-hue {
+    0% {
+        filter: hue-rotate(540deg) saturate(7.3);
+        --accent-color: red
+    }
+
+    50% {
+        --accent-color: green
+    }
+
+    to {
+        filter: hue-rotate(180deg) saturate(7.3)
+    }
+}
+
+
+ .noise {
+    background-image: url(/noise.png);
+    background-repeat: repeat;
+    background-size: 182px;
+    opacity: 0.025;
+}
